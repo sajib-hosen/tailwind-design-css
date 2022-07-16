@@ -17,10 +17,10 @@
   /* background-color: #61dafb; */
   /* -webkit-text-fill-color: transparent; */
   color: #ffffff;
-  font-size: 100px;
-  -webkit-text-stroke: 0.1em transparent;
-  text-transform: uppercase;
-  letter-spacing: 0.2em;
+  font-size: 130px;
+  -webkit-text-stroke: 0.05em transparent;
+  /* text-transform: uppercase; */
+  letter-spacing: 0.4em;
   background: linear-gradient(to left, DimGrey,Gray,Gainsboro,Lavender);
   -webkit-background-clip: text;
 }

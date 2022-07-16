@@ -16,16 +16,32 @@ function App() {
     -webkit-background-clip: text;
   } */}
 
-      <div className='border border-red-200 h-36 relative'>
-        <div className='flex justify-start '>
-           <span className="mx-20 text-left font-poppins textStoke">Text Stoke</span>
+
+      {/* Text strack ------------------------------------------------- */}
+      <div className='border border-red-200 h-screen relative'>
+        <div className='flex justify-start  h-full '>
+           <span className=" mt-5 text-left font-poppins textStoke">About</span>
         </div>
 
-          <div className='absolute border top-10 left-10' >
-            <p className='text-2xl '>this is small text</p>
+          <div className='absolute top-0 left-10 flex flex-col  items-start h-full ' >
+            <p className='text-6xl font-bold'>About</p>
+            <p className='mt-20 w-2/4 text-left text-xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate commodi eum veniam, repellendus quam iste ipsam culpa adipisci, nulla non odit deleniti provident ea consectetur nisi eaque ex expedita sapiente. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate commodi eum veniam, repellendus quam iste ipsam culpa adipisci, nulla non odit deleniti provident ea consectetur nisi eaque ex expedita sapiente. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate commodi eum veniam, repellendus quam iste ipsam culpa adipisci, nulla non odit deleniti provident ea consectetur nisi eaque ex expedita sapiente.</p>
           </div>
 
       </div>
+
+
+      {/* snip ------------------------------------------ */}
+
+      <div className='border-2 border-green-300  h-screen w-screen flex snap-x snap-mandatory overflow-scroll'>
+        <div className='flex-shrink-0 snap-start bg-slate-200 w-screen h-screen flex justify-center items-center'>1</div>
+        <div className='flex-shrink-0 snap-start bg-red-200 w-screen h-screen flex justify-center items-center'>2</div>
+        <div className='flex-shrink-0 snap-start bg-orange-200 w-screen h-screen flex justify-center items-center'>3</div>
+        <div className='flex-shrink-0 snap-start bg-amber-200 w-screen h-screen flex justify-center items-center'>4</div>
+        <div className='flex-shrink-0 snap-start bg-lime-200 w-screen h-screen flex justify-center items-center'>5</div>
+      </div>
+
+
 
     </div>
   );
